@@ -1,25 +1,26 @@
+/*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+
+/* ===== ДОПОЛНЕНИЯ от Nadya Mincheva ===== */
+
+/* обнуляем дефолтные маркеры у всех маркированных списков */
+ul {
+  list-style: none;
+}
+
+/* обнуляем дефолтные подчеркивания у всех ссылок */
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
-body {
-  color: var(--content-color);
-  font-family: var(--main-font);
-  font-style: normal;
-  font-weight: normal;
-}
-
-address {
-  font-style: normal;
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.7;
-  letter-spacing: 0.03em;
-}
-
-/*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
+/* ===== ДОПОЛНЕНИЯ от Nadya Mincheva ===== */
 
 /*
 Document
