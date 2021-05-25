@@ -1,9 +1,10 @@
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 
-/* ===== ДОПОЛНЕНИЯ от Nadya Mincheva ===== */
+/* ===== ДОПОЛНЕНИЯ ===== */
 
 /* обнуляем дефолтные маркеры у всех маркированных списков */
-ul {
+ul,
+ol {
   list-style: none;
 }
 
@@ -12,10 +13,10 @@ ul {
 a {
   text-decoration: none;
   color: inherit;
+  display: inline-block;
 }
 
 * {
-  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
@@ -67,6 +68,7 @@ Remove the margin in all browsers.
 
 body {
   margin: 0;
+  padding: 0;
 }
 
 /**
