@@ -40,6 +40,10 @@ body {
 
 /*Header Section*/
 
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-line {
   height: 80px;
   display: flex;
