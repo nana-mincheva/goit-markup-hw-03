@@ -227,6 +227,11 @@ body {
   flex-direction: row;
 }
 
+.feature-list .text {
+  font-size: 14px;
+  line-height: 1.714;
+  letter-spacing: 0.03em;
+}
 .feature-item {
   min-width: 270px;
   min-height: 101px;
