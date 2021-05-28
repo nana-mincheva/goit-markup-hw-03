@@ -233,6 +233,11 @@ body {
 
 /*FOOTER SECTION*/
 
+.addres {
+  font-style: normal;
+  margin-top: 20px;
+}
+
 .footer-logo {
   color: var(--white-color);
   font-family: var(--accent-font);
@@ -253,8 +258,12 @@ body {
 .footer {
   color: var(--white-color);
   background-color: var(--background-color);
+  padding-top: 69px;
+  padding-bottom: 60px;
 }
-
+.footer-contacts .link {
+  margin-top: 9px;
+}
 .footer-contacts .link {
   color: var(--white-color-op);
   font-weight: 400;
