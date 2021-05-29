@@ -45,10 +45,7 @@ body {
 }
 
 .header-line {
-  height: 80px;
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
 }
 
 .nav-list {
@@ -72,11 +69,13 @@ body {
 .nav {
   display: flex;
   align-items: center;
-  width: 294px;
-  justify-content: space-between;
   margin-left: 93px;
-  padding: 32px 0;
 }
+
+.nav li:not(:last-child) {
+  margin-right: 50px;
+}
+
 .nav .link {
   display: block;
   padding-top: 32px;
@@ -99,6 +98,7 @@ body {
 .contacts {
   display: flex;
   align-items: center;
+  margin-left: auto;
 }
 
 .contacts li:not(:last-child) {
@@ -120,7 +120,7 @@ body {
   background: var(--background-color);
 }
 
-.hero .container {
+.hero {
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
@@ -161,6 +161,7 @@ body {
   font-size: 36px;
   line-height: 1.7;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 .filter-title {
@@ -169,11 +170,10 @@ body {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
 }
 
 .filter {
-  width: 1170px;
+  /* width: 1170px; */
   display: flex;
   flex-wrap: wrap;
   margin-top: -30px;
@@ -204,15 +204,18 @@ body {
   letter-spacing: 0.03em;
 }
 
+.filter-desc {
+  padding: 20px 24px;
+}
+
 .feature,
 .worklist {
-  padding-bottom: 94px;
+  padding: 94px 0;
 }
 
 .feature .container {
   display: flex;
   justify-content: center;
-  padding-top: 94px;
 }
 
 .feature-title {
@@ -251,7 +254,6 @@ body {
 .work-list {
   display: flex;
   justify-content: center;
-  margin-top: 50px;
 }
 
 .worklist-item {
@@ -269,7 +271,7 @@ body {
   background-color: #f5f4fa;
 }
 
-.team .container {
+.team {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -279,7 +281,6 @@ body {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .team-list {
@@ -294,7 +295,6 @@ body {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   text-align: center;
-  margin-top: 50px;
 }
 
 .team-text {
@@ -302,9 +302,12 @@ body {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
 }
 
+.team-name {
+  padding: 30px 68px;
+}
 /*FOOTER SECTION*/
 
 .addres {
@@ -354,21 +357,21 @@ body {
 /*PORTFOLIO SECTION*/
 
 .portfolio {
-  margin-bottom: 34px;
-  display: flex;
-  justify-content: space-between;
+  padding: 94px 0;
 }
 .portfolio-title {
-  visibility: hidden;
+  display: none;
 }
 
 .portfolio-list {
   display: flex;
   align-items: center;
-  width: 611px;
-  height: 54px;
-  justify-content: space-between;
-  margin-left: 295px;
+  justify-content: center;
+  margin-bottom: 34px;
+}
+
+.portfolio-list li:not(:last-child) {
+  margin-right: 8px;
 }
 
 .portfolio-list img {
